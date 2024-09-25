@@ -1,6 +1,7 @@
 
 h1 {
-  font-size: 30px;
+    font-size: 20pt;
+    color:#fff;
 }
 
 
@@ -12,15 +13,11 @@ body {
 
 }
 .main {
-display: flex;
+display: grid;
   /*align-items:center;*/
    position: absolute;
-  top: 10em;
-  border:50px red;
-width:50%;
-  height:10%;
-background:red;
-
+  top: 3em;
+  grid-template-columns: 1fr 1fr;
 
 }
 /*.left {
@@ -36,10 +33,5 @@ background:red;
 }
 
 */
-img {
-  border-radius:20%;
-  width:900px;
-  height:620px;
 
-}
 
